@@ -1,0 +1,14 @@
+{application, erlcc,
+   [
+      {description, "Erlang code compiler"},
+      {vsn,         "git"},
+      {modules,     []},
+      {registered,  []},
+      {applications,[
+         kernel
+      ,  stdlib
+      ,  datum
+      ]},
+      {env, []}
+   ]
+}.
